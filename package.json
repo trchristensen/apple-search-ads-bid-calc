@@ -1,0 +1,20 @@
+{
+  "name": "bid-calc",
+  "version": "1.0.0",
+  "description": "calculates new bid amount for apple search ads, based on projected report",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "todd christensen",
+  "license": "ISC",
+  "bin": {
+    "bid": "./bin/bid.js"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.3",
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "yargs": "^13.2.4"
+  }
+}
