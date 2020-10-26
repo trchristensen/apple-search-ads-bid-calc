@@ -17,10 +17,8 @@ var options = yargs
     demandOption: true
 }).argv;
 var bidFunction = function (options) {
-    if (options.projected > 250)
-        return "set MAX bid";
-    if (options.projected < 50)
-        return "set MIN bid";
+    // if (options.projected > 250) return "set MAX bid";
+    // if (options.projected < 50) return "set MIN bid";
     if (options.projected > 160) {
         var diff = Math.abs(options.projected - 150) / 150;
         var final = options.cpt + options.cpt * diff;

@@ -21,8 +21,8 @@ var options = yargs
 const bidFunction = (options: any) => {
 
 
-  if (options.projected > 250) return "set MAX bid";
-  if (options.projected < 50) return "set MIN bid";
+  // if (options.projected > 250) return "set MAX bid";
+  // if (options.projected < 50) return "set MIN bid";
 
   if (options.projected > 160) {
     const diff = Math.abs(options.projected - 150) / 150;
