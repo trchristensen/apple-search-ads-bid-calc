@@ -13,9 +13,12 @@ If the projection is OVER 150%, it will calculate a HIGHER bid amount.
 requires [Node.js](https://nodejs.org/) to run
 ```sh
 git clone https://github.com/trchristensen/apple-search-ads-bid-calc.git
+```
+```sh
 cd apple-search-ads-big-calc
-npm install
-npm i -g
+```
+```sh
+npm install -g
 ```
 
 ### How to Use
